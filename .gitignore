@@ -1,0 +1,18 @@
+# colcon / ROS 2 workspace build artifacts
+build/
+install/
+log/
+
+# Editor / IDE
+.vscode/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# FAST-LIO runtime outputs
+src/FAST_LIO2-AVIA/Log/*.png
+src/FAST_LIO2-AVIA/Log/*.txt
+src/FAST_LIO2-AVIA/Log/*.csv
+src/FAST_LIO2-AVIA/Log/*.pdf
+src/FAST_LIO2-AVIA/PCD/*.pcd
