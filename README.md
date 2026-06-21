@@ -218,11 +218,20 @@ and `/path` displays.
 
 ## 8. Credits & licenses
 
-- **FAST-LIO2** — [hku-mars/FAST_LIO](https://github.com/hku-mars/FAST_LIO) (GPLv2). Avia
-  adaptation in this fork.
-- **ikd-Tree** — [hku-mars/ikd-Tree](https://github.com/hku-mars/ikd-Tree).
+This workspace is built directly on the Avia-adapted forks by
+[**kirankiran22**](https://github.com/kirankiran22)
+([FAST_LIO2-AVIA](https://github.com/kirankiran22/FAST_LIO2-AVIA),
+[livox_ros2_avia](https://github.com/kirankiran22/livox_ros2_avia),
+[ikd-Tree](https://github.com/kirankiran22/ikd-Tree)), which wired FAST-LIO2 to the
+Avia driver's custom message. Upstream sources:
+
+- **FAST-LIO2** — [hku-mars/FAST_LIO](https://github.com/hku-mars/FAST_LIO) (GPLv2), via
+  [kirankiran22/FAST_LIO2-AVIA](https://github.com/kirankiran22/FAST_LIO2-AVIA).
+- **ikd-Tree** — [hku-mars/ikd-Tree](https://github.com/hku-mars/ikd-Tree), via
+  [kirankiran22/ikd-Tree](https://github.com/kirankiran22/ikd-Tree).
 - **livox_ros2_avia** — [ASIG-X/livox_ros2_avia](https://github.com/ASIG-X/livox_ros2_avia)
-  (MIT), from the official Livox driver and the Ubuntu-22.04 Livox-SDK.
+  (MIT), from the official Livox driver and the Ubuntu-22.04 Livox-SDK, via
+  [kirankiran22/livox_ros2_avia](https://github.com/kirankiran22/livox_ros2_avia).
 
 Each package keeps its own `LICENSE`. This workspace is a reproducible integration of the
 above for ROS 2 Humble / Ubuntu 22.04.
