@@ -201,6 +201,14 @@ and `/path` displays.
 > *visualizing finished results*; to **re-run mapping** you need a bag of the raw
 > `/livox/lidar + /livox/imu` topics instead.
 
+### Demo video
+
+Recorded rosbag (`/cloud_registered`, `/Odometry`, `/path`) replayed in RViz:
+
+[![FAST-LIO2 + Livox Avia rosbag replay](https://img.youtube.com/vi/qJg8GIKegX4/hqdefault.jpg)](https://youtu.be/qJg8GIKegX4)
+
+▶️ https://youtu.be/qJg8GIKegX4
+
 ---
 
 ## 7. Troubleshooting
